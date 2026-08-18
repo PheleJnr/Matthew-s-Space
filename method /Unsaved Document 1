@@ -1,0 +1,93 @@
+
+
+total = 0.0
+
+buy_more = "yes"
+
+while (buy_more == "yes"):
+
+item = input("Enter your Item: ")
+
+item = input("Enter amount for the item: ")
+
+amount = float(amount)
+
+total += amount
+
+buy_more = input ("Enter yes to buy more item: ")
+
+print ("Your total amount to pay is ", total)
+
+
+
+
+
+
+
+name = "Ugochinyere"
+
+for letter in name:
+
+    print ("Hello World")
+
+    print ("character", letter)
+
+    print (letter, end="  ")
+
+
+        vowel = "aeiou"
+
+        if letter in vowel:
+            print (letter, end="  ")
+
+
+
+for number in range(10):
+
+    print (number)
+
+
+Range for multiple argument
+
+for number in range (3, 9)
+
+    print (number, end=" ")
+
+
+
+for number in range (0, 11, 3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

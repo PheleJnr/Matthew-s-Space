@@ -1,0 +1,86 @@
+
+
+
+
+
+    WHAT IS A UNIT TEST?
+ A unit test checks that a single small piece of your code (like one function) does exactly what you expect.
+Python has a built-in module called unittest — no installation needed.
+____________________________________________________________________________________________________________________________
+
+
+    HOW TO START — 4 SIMPLE STEPS
+
+ 1. Write your functions first. For example, imagine you have a todo.py file
+    where all your functions like add_task(), remove_task(), and complete_task() will reside.
+    
+ 2. Create a separate test file. Name it test_todo.py.
+    a. At the top, import unittest 
+    b. import the functions file, your todo.py.
+    
+ 3. Write a test class that inherits from unittest.TestCase.
+    a. Inside it, write methods that each start with test_then_what_the_test_will_test_for(self)
+       Python finds and runs them automatically.
+    b. Each method calls one of your functions and then uses an assert like assertEqual() or assertTrue()
+       to verify the result is what you expected.
+       
+ 4.Run your tests from the terminal with python -m unittest test_todo.py.
+    a. A dot (.) means a test passed.
+    b. F means failed.
+    c. E means an error/exception occurred.
+
+
+___________________________________________________________________________________________________________________________
+
+
+    THE CORE PATTERN INSIDE EVERY TEST (AAA)
+    
+ 1. Arrange — set up any data you need
+ 2. Act — call the function you're testing
+ 3. Assert — check the result matches what you expected
+
+____________________________________________________________________________________________________________________________
+
+
+    USEFUL ASSERT METHODS TO KNOW
+
+ 1. assertEqual(a, b)       —>          checks a == b
+ 2. assertTrue(x)           —>          checks x is truthy
+ 3. assertIn(item, list)    —>          checks item exists in the list
+ 4. assertRaises(Error, fn) —>          checks that a function raises a specific error
+
+
+_____________________________________________________________________________________________________________________________
+
+NOTE: One good habit to build: run your tests after every change. 
+If something breaks, you'll know immediately which change caused it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
