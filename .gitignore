@@ -1,1 +1,6 @@
 phaseGateMatthew/
+*.class
+__pycache__/
+*.pyc
+out/
+*.jar
